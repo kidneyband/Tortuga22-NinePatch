@@ -14,17 +14,19 @@
 @synthesize window;
 @synthesize mainViewController;
 
-
-- (void)applicationDidFinishLaunching:(UIApplication *)application {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    MainViewController *aController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
+    self.mainViewController = aController;
+    //	[aController release];
     
-	MainViewController *aController = [[MainViewController alloc] initWithNibName:@"MainView" bundle:nil];
-	self.mainViewController = aController;
-	[aController release];
-	
     mainViewController.view.frame = [UIScreen mainScreen].applicationFrame;
-	[window addSubview:[mainViewController view]];
+    //	[window addSubview:[mainViewController view]];
+    window.rootViewController = self.mainViewController;
     [window makeKeyAndVisible];
+    return YES;
 }
+
 
 
 - (void)dealloc {

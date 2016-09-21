@@ -26,6 +26,8 @@
 		32BB01C510EAB82400F57FBC /* NPContentNinePatchDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BB01C410EAB82400F57FBC /* NPContentNinePatchDemoView.m */; };
 		32BBFFCB10E96E6700F57FBC /* libNinePatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BBFFCA10E96E5C00F57FBC /* libNinePatch.a */; };
 		32BBFFD110E976C100F57FBC /* NPNinePatchDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BBFFD010E976C100F57FBC /* NPNinePatchDemoView.m */; };
+		850A54F71D92367B00534F7D /* facebook_login_button_inactive.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 850A54F61D92367B00534F7D /* facebook_login_button_inactive.9.png */; };
+		850A54F91D9236FE00534F7D /* primary_btn_inactive.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 850A54F81D9236FE00534F7D /* primary_btn_inactive.9.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		32BBFFCF10E976C100F57FBC /* NPNinePatchDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPNinePatchDemoView.h; sourceTree = "<group>"; };
 		32BBFFD010E976C100F57FBC /* NPNinePatchDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPNinePatchDemoView.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* NinePatchDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinePatchDemo_Prefix.pch; sourceTree = "<group>"; };
+		850A54F61D92367B00534F7D /* facebook_login_button_inactive.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_login_button_inactive.9.png; sourceTree = "<group>"; };
+		850A54F81D9236FE00534F7D /* primary_btn_inactive.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = primary_btn_inactive.9.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* NinePatchDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NinePatchDemo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -162,6 +166,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				850A54F61D92367B00534F7D /* facebook_login_button_inactive.9.png */,
+				850A54F81D9236FE00534F7D /* primary_btn_inactive.9.png */,
 				325B81D511B1976100B86EA1 /* amendedNGramBackplate.9.png */,
 				325B81D611B1976100B86EA1 /* amendedNinePatchSolidBorder.9.png */,
 				32BB018D10EAB0BB00F57FBC /* testButton.9.png */,
@@ -229,8 +235,11 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NinePatchDemo" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -269,11 +278,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850A54F91D9236FE00534F7D /* primary_btn_inactive.9.png in Resources */,
 				280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */,
 				280E754E0DD40C5E005A515E /* MainView.xib in Resources */,
 				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
 				32BB000C10E9856700F57FBC /* testButtonContent.9.png in Resources */,
 				32BB018E10EAB0BB00F57FBC /* testButton.9.png in Resources */,
+				850A54F71D92367B00534F7D /* facebook_login_button_inactive.9.png in Resources */,
 				325B81D811B1976100B86EA1 /* amendedNGramBackplate.9.png in Resources */,
 				325B81D911B1976100B86EA1 /* amendedNinePatchSolidBorder.9.png in Resources */,
 			);

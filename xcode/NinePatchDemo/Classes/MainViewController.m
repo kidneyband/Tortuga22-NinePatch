@@ -163,7 +163,8 @@
 -(void)viewDidLoad {
 	[super viewDidLoad];
 	// TODO: set up nine-patch images
-	[self updateToNinePatchNamed:@"testButton"];
+//	[self updateToNinePatchNamed:@"facebook_login_button_inactive"];
+    [self updateToNinePatchNamed:@"primary_btn_inactive"];
 	[self.fullNinePatchView setNinePatchSize:CGSizeMake([self.widthSlider value], [self.heightSlider value])];
 	CGFloat maxWidth = CGRectGetWidth([self.fullNinePatchView bounds]);
 	CGFloat maxHeight = CGRectGetHeight([self.fullNinePatchView bounds]);
